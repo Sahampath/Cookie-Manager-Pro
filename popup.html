@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cookie Manager Pro</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1 id="appTitle">🍪 Cookie Manager Pro</h1>
+            <div class="language-selector">
+                <label id="langLabel" for="languageSelect">Language:</label>
+                <select id="languageSelect">
+                    <option value="en">English</option>
+                    <option value="si">සිංහල</option>
+                    <option value="ja">日本語</option>
+                    <option value="zh">中文</option>
+                    <option value="ar">العربية</option>
+                    <option value="ru">Русский</option>
+                    <option value="hi">हिन्दी</option>
+                    <option value="ta">தமிழ்</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="stats">
+            <div class="stat-item">
+                <span id="cookieCountLabel">Total Cookies:</span>
+                <span id="cookieCount">0</span>
+            </div>
+            <div class="stat-item" id="siteStats" style="display:none;">
+                <span id="siteCookieCountLabel">Site Cookies:</span>
+                <span id="siteCookieCount">0</span>
+            </div>
+        </div>
+
+        <div class="actions">
+            <button id="getSiteCookiesBtn" class="btn btn-info">
+                🌐 <span id="getSiteBtnText">Get Site Cookies</span>
+            </button>
+            <button id="exportSiteBtn" class="btn btn-primary" style="display:none;">
+                📤 <span id="exportSiteBtnText">Export Site Cookies</span>
+            </button>
+            <button id="importSiteBtn" class="btn btn-secondary" style="display:none;">
+                📥 <span id="importSiteBtnText">Import Site Cookies</span>
+            </button>
+            <button id="clearSiteBtn" class="btn btn-danger" style="display:none;">
+                🗑️ <span id="clearSiteBtnText">Clear Site Cookies</span>
+            </button>
+        </div>
+        
+        <div class="actions">
+            <button id="exportAllBtn" class="btn btn-primary">
+                📤 <span id="exportAllBtnText">Export All Cookies</span>
+            </button>
+            <button id="importAllBtn" class="btn btn-secondary">
+                📥 <span id="importAllBtnText">Import All Cookies</span>
+            </button>
+            <button id="manualJsonBtn" class="btn btn-info">
+                📝 <span id="manualJsonBtnText">Manual Add JSON</span>
+            </button>
+            <input type="file" id="fileInput" accept=".json" style="display: none;">
+        </div>
+
+        <!-- Manual JSON input section (hidden by default) -->
+        <div id="manualJsonSection" class="manual-json-section" style="display:none;">
+            <h3 id="manualJsonTitle">Paste Cookie JSON Array:</h3>
+            <textarea id="manualJsonTextarea" rows="8" placeholder='[{"domain":".example.com","name":"session","value":"abc123",...}]'></textarea>
+            <div class="manual-json-buttons">
+                <button id="manualImportSiteBtn" class="btn btn-secondary">🌐 <span id="manualImportSiteText">Import as Site Cookies</span></button>
+                <button id="manualImportAllBtn" class="btn btn-primary">📦 <span id="manualImportAllText">Import as All Cookies</span></button>
+                <button id="manualCancelBtn" class="btn btn-danger">✖ <span id="manualCancelText">Cancel</span></button>
+            </div>
+        </div>
+
+        <div id="cookiesList" class="cookies-list" style="display:none;">
+            <h3 id="cookiesListTitle">Cookies for current site:</h3>
+            <div id="cookiesListContainer"></div>
+        </div>
+
+        <div id="status" class="status"></div>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>
