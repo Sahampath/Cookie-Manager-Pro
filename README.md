@@ -1,7 +1,7 @@
 <h1 align="center"> <img src="icons/icon16.png" width="30"> Cookie Manager Pro </h1>
 
 <h2 align="center">
-<img src="https://images2.imgbox.com/f6/f3/5dZ0HIGk_o.png" width="400">
+<img src="https://images2.imgbox.com/47/25/lJQefapd_o.png" width="400">
 </h2>
 
 <h3 align="center"> <a href="https://github.com/Sahampath">
