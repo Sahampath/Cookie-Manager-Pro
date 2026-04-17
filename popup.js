@@ -2,7 +2,7 @@
 const translations = {
     en: {
         appTitle: '🍪 Cookie Manager Pro',
-        langLabel: 'Language:',
+        langLabel: '🇸🇱 Language:',
         cookieCountLabel: 'Total Cookies:',
         siteCookieCountLabel: 'Site Cookies:',
         getSiteBtnText: 'Refresh Site Cookies',
