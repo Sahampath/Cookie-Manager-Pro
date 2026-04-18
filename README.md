@@ -66,7 +66,11 @@ A powerful browser extension for Brave/Chrome to export, import, and manage cook
 #
 
 ## 📦 Permissions
-`cookies`, `storage`, `activeTab`, `downloads`
+<a href="#"><img alt="cookies" src="https://img.shields.io/badge/cookies-%23F4A261.svg?logoColor=white"></a> , 
+<a href="#"><img alt="storage" src="https://img.shields.io/badge/storage-%232C9CD4.svg?logoColor=white"></a> , 
+<a href="#"><img alt="activeTab" src="https://img.shields.io/badge/activeTab-%232E8B57.svg?logoColor=white"></a> , 
+<a href="#"><img alt="downloads" src="https://img.shields.io/badge/downloads-%238A2BE2.svg?logo=download&logoColor=white"></a> , 
+<a href="#"><img alt="tabs" src="https://img.shields.io/badge/tabs-%2320B2AA.svg?logoColor=white"></a>
 
 #
 
