@@ -1,8 +1,21 @@
 <h1 align="center"> <img src="icons/icon16.png" width="30"> Cookie Manager Pro </h1>
 
-<h2 align="center">
-<img src="https://images2.imgbox.com/47/25/lJQefapd_o.png" width="400">
-</h2>
+<table align="center">
+  <tr>
+    <td align="center">
+      <img src="https://images2.imgbox.com/47/25/lJQefapd_o.png" alt="Left image" width="400">
+      <br>
+      <strong>In English</strong>
+    </td>
+    <td align="center">
+      <img src="https://images2.imgbox.com/4e/6b/dE8lwpTq_o.png" alt="Right image" width="400">
+      <br>
+      <strong>In Sinhala</strong>
+    </td>
+  </tr>
+</table>
+
+
 
 <h3 align="center"> <a href="https://github.com/Sahampath">
     <img alt="followers" title="Follow me on Github" src="https://img.shields.io/github/followers/Sahampath?color=236ad3&labelColor=1155ba&style=for-the-badge&logo=github&label=Follow"/></a> </h3>
