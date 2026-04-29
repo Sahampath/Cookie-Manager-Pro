@@ -79,8 +79,9 @@ A powerful browser extension for Brave/Chrome to export, import, and manage cook
 #
 ## ⚙️ Best Browsers for Cookie Editing
 
-- **[Supermium](https://github.com/win32ss/supermium)** (Chromium-based)
-- **[R3dfox](https://github.com/Eclipse-Community/r3dfox)** (Firefox-based)
+[![Download Supermium](https://img.shields.io/badge/Download_Supermium-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=2a2a2a)](https://github.com/win32ss/supermium) - (Chromium-based)
+
+[![Download R3dfox](https://img.shields.io/badge/Download_R3dfox-FF7139?style=for-the-badge&logo=firefox&logoColor=white&labelColor=2a2a2a)](https://github.com/Eclipse-Community/r3dfox) - (Firefox-based)
 
 <sub>💡 external tools — verify before using</sub>
 
