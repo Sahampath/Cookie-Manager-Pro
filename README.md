@@ -116,6 +116,15 @@ A powerful browser extension for Brave/Chrome to export, import, and manage cook
 
 #
 
+
+### ❗ Disclaimer
+
+- **Only for educational purposes.**
+- **We decline any responsibility in case of misuse of this Cookie Manager Pro.**
+
+#
+
+
 <h2 align="center">:eyes: Visitors Counts</h2>
 <p align="center">
 <a href="https://github.com/Sahampath/EroMe-Downloader"><img alt="Cute Count" src="https://count.getloli.com/get/@Sahampath?theme=rule34" /></a>
